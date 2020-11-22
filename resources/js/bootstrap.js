@@ -20,6 +20,7 @@ try {
  */
 
 window.axios = require('axios');
+// window.htmlToRtf = require('html-to-rtf');
 
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
